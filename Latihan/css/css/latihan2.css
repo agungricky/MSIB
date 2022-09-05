@@ -1,0 +1,36 @@
+div#menu {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menu a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    font-size: 14 pt;
+    color: blueviolet;
+    border: 2px solid yellow;
+    background: yellowgreen;
+    margin: 0px;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 7px;
+}
+
+/* Pesudo class */
+.p3:first-letter {
+    color: red;
+    font-size: 48pt;
+    font-weight: bold;
+    float: left;
+    padding: 0px 10px;
+}
+
+.p3::first-line {
+    color: green;
+    font-style: ;
+}

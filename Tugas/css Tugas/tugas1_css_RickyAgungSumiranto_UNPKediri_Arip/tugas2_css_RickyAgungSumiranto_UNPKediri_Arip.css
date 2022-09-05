@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#bg {
+    width: 100%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    position: relative;
+    bottom: 5px;
+    overflow: hidden;
+    background-color: #e7e7e7;
+    box-shadow: black 0px 0px 10px 1px;
+    padding: 0px 150px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #696969;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-size: large;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    margin: 50px 0px;
+    width: 50%;
+    box-shadow: #696969 0px 15px 15px 15px;
+}
+
+#podcast,
+#tni {
+    width: 90%;
+}
+
+.sosmed {
+    padding: 0px 90px;
+}
+
+.gambar {
+    width: 30px;
+}
+
+.kuotes {
+    margin: 10px 35px;
+}
+
+p#motivasi {
+    text-align: center;
+    padding: 0px 10px;
+}
+
+#imgfooter {
+    width: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    /* membersihkan float left sebelumnya */
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column.side,
+    .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #222222;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    color: white;
+}
+
+.footer2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+}
+
+#ketfooter {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#keterangan a {
+    padding: 0px 30px;
+}
+
+#keterangan {
+    padding: 20px 0px;
+    text-align: center;
+}

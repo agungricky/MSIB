@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+
+<body>
+    <form name="frmLatihan" method="post" action="#">
+        <table border="0" align="center" cellpadding="5" width="30%">
+            <thead>
+                <tr>
+                    <th colspan="2" bgcolor="#0917234">Latihan Form</th>
+                </tr>
+            </thead>
+
+            <body>
+                <tr>
+                    <td width="20%">Nama</td>
+                    <td><input type="text" placeholder="Masukan Nama" name="nama" size="50" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" placeholder="Masukan Email" name="email" size="50" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" value="L" name="gender">Pria &nbsp;
+                        <input type="radio" value="P" name="gender">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td><input type="checkbox">Fotography <br>
+                        <input type="checkbox">Sepak bola <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Pendidikan Terakhir</label></td>
+                    <td>
+                        <select name="Pendidikan">
+                            <option value="">Pilih Pendidikan</option>
+                            <option value="Sd">Sd</option>
+                            <option value="Smp">Smp</option>
+                            <option value="Smk">Smk</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Komentar</td>
+                    <td>
+                        <textarea name="" id="" cols="40" rows="10" placeholder="Masukan Komentar"></textarea>
+                    </td>
+                </tr>
+            </body>
+            <footer>
+                <tr bgcolor="#92ehe">
+                    <td colspan="2" align="center">
+                        <button>Kirim</button>
+                        <input type="button" value="Cancel">
+                    </td>
+                </tr>
+
+            </footer>
+        </table>
+    </form>
+
+</body>
+
+</html>
